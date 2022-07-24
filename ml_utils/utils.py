@@ -56,5 +56,5 @@ def ef_v2(video_path, frame_name, frame_format, dest):
             # print(f'extracting {file} to {dest} --- {count} frames moved.')
         else:
             print('file already exists.')
-        count += 1
         t.set_description(f'Extracting frame {count}')
+        count += 1
